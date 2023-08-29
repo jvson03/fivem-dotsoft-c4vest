@@ -1,7 +1,6 @@
----@diagnostic disable: undefined-global, redefined-local, lowercase-global
 -- Initialise QBCore
 
-local QBCore = exports['qb-core']:GetCoreObject()
+QBCore = exports['qb-core']:GetCoreObject()
 local IsEquipped = false
 
 -- Vest Item
